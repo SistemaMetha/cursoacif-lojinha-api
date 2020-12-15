@@ -25,7 +25,7 @@ app.use(cors); //só vai ser utilizado quando bater nele
 
 autenticacaoRoute(app); //registrar na aplicação todas as rotas de autenticação, sem verificar o token
 
-app.use(auth);
+//app.use(auth); só comentado para não ficar pedindo o token toda hora
 clienteTipoRoute(app);
 
 app.get('/', (req, res) => {
