@@ -1,0 +1,11 @@
+https://dashboard.heroku.com/apps/acif-lojinha-api-metha
+https://dashboard.heroku.com/apps/acif-lojinha-api-metha/settings
+https://data.heroku.com/datastores/0d53f094-1a61-4f66-84c9-27bd816e982d
+https://github.com/SistemaMetha/cursoacif-lojinha-api
+
+pgadmin
+http://127.0.0.1:52173/browser/
+
+SistemaMetha/cursoacif-lojinha-api
+
+https://acif-lojinha-api-metha.herokuapp.com/tipos-de-clientes
