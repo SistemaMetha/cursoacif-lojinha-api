@@ -2,11 +2,11 @@ const Sequelize = require('sequelize');
 //maiusculo por convenção por ser um objeto
 
 const sequelize = new Sequelize(
-    'BancoTeste', //banco
-    'postgres', //user
-    '123456', //senha
+    process.env.DATABASE_NAME || 'BancoTeste', //banco
+    process.env.DATABASE_USER || 'postgres', //user
+    process.env.DATABASE_PASS || '123456', //senha
     {
-        host: 'localhost',
+        host: process.env.DATABASE_HOST || 'localhost',
         dialect: 'postgres',
         quoteIdentifiers: false, 
         operatorsAliases: false
